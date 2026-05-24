@@ -145,7 +145,7 @@ Stock invariant that must always hold:
 reserved ≤ total
 available = total - reserved ≥ 0
 ```
-___________________________________
+
 ### Tables Created
 
 | Table | Maps To | Description |
@@ -155,7 +155,6 @@ ___________________________________
 | `Stock` | Inventory table | Units per product per warehouse — tracks `total` and `reserved` separately |
 | `Reservation` | Reservation table | Status (PENDING/CONFIRMED/RELEASED) and expiry timestamp |
 | `IdempotencyRecord` | Bonus table | Caches responses for idempotency key support |
-________________________
 
 ---
 
