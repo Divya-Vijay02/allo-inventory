@@ -155,7 +155,7 @@ ___________________________________
 | `Stock` | Inventory table | Units per product per warehouse — tracks `total` and `reserved` separately |
 | `Reservation` | Reservation table | Status (PENDING/CONFIRMED/RELEASED) and expiry timestamp |
 | `IdempotencyRecord` | Bonus table | Caches responses for idempotency key support |
-________________________-
+________________________
 
 ---
 
