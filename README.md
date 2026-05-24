@@ -145,7 +145,6 @@ Stock invariant that must always hold:
 reserved ≤ total
 available = total - reserved ≥ 0
 ```
-
 ### Tables Created
 
 | Table | Maps To | Description |
