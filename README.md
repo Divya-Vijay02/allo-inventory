@@ -19,7 +19,7 @@ DIVYA V
 **Live URL:** https://allo-inventory-henna.vercel.app  
 **GitHub:** https://github.com/Divya-Vijay02/allo-inventory
 
-**Process Screenshots doc:** https://drive.google.com/file/d/1fFMRtr6RvZpnLilHiM5MgJcI0lJsx5F4/view?usp=sharing
+**"EVIDENCE Screenshots" doc:** https://drive.google.com/file/d/1tnjdgDcmwGpTEtaVKKxlsfP1Tw9enmEN/view?usp=sharing
 
 ---
 
