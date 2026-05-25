@@ -1,3 +1,4 @@
+export const revalidate = 0;
 import { prisma } from "@/lib/prisma";
 import { ProductCard } from "@/components/product-card";
 import type { ProductWithStock } from "@/lib/schemas";
