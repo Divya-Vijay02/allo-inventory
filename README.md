@@ -259,4 +259,4 @@ The seed includes intentionally scarce stock to make race conditions easy to tes
 | Keychron Q1 Pro | Delhi | **1** ← open 2 tabs, race for it |
 | Sony WH-1000XM5 | Mumbai | **0** ← out of stock demo |
 
-**To demo the race condition:** Open `https://allo-inventory-henna.vercel.app` in two browser tabs simultaneously, navigate to AirPods Pro, select Bengaluru warehouse in both tabs, and click Reserve in both at the same time. One gets the reservation. The other sees a 409.
+**To demo the race condition:** Open `https://allo-inventory-git-main-divya-vijay02s-projects.vercel.app/` in two browser tabs simultaneously, navigate to AirPods Pro, select Bengaluru warehouse in both tabs, and click Reserve in both at the same time. One gets the reservation. The other sees a 409.
