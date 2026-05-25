@@ -19,7 +19,7 @@ DIVYA V
 **Live URL:** https://allo-inventory-henna.vercel.app  
 **GitHub:** https://github.com/Divya-Vijay02/allo-inventory
 
-**"EVIDENCE Screenshots" doc:** https://drive.google.com/file/d/1tnjdgDcmwGpTEtaVKKxlsfP1Tw9enmEN/view?usp=sharing
+**"EVIDENCE Screenshots" doc:** https://drive.google.com/file/d/1r4S_eKkI255fGkhfD0a6nXQV46CcLpWi/view?usp=sharing
 
 ---
 
@@ -28,6 +28,8 @@ DIVYA V
 A customer clicks **Reserve** on a product. The system holds that unit for **10 minutes** while they complete payment. If they confirm → stock is permanently decremented. If they cancel or the timer runs out → the hold is released and the unit returns to available inventory.
 
 The hard part: two customers clicking Reserve simultaneously for the last unit. Exactly one should succeed. The other should get a 409. This is guaranteed at the database level — no application-level locks, no race conditions.
+
+**Stock counts update on page refresh:** The product listing fetches stock from the database on each page load. After a reservation is made, it shows the updated available count — reserved units are correctly reflected in real time in the database, and the UI updates on next load.
 
 ---
 
