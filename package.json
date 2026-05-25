@@ -50,5 +50,11 @@
   },
   "prisma": {
     "seed": "ts-node prisma/seed.ts"
-  }
+  },
+ 
+"scripts": {
+  "build": "prisma generate && next build"
+}
+
+
 }
