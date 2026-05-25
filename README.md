@@ -16,7 +16,7 @@ DIVYA V
 
 > Multi-warehouse inventory reservation system with race-condition-free stock management.
 
-**Live URL:** https://allo-inventory-git-main-divya-vijay02s-projects.vercel.app/  
+**Live URL:** https://allo-inventory-git-main-divya-vijay02s-projects.vercel.app/
 **GitHub:** https://github.com/Divya-Vijay02/allo-inventory
 
 **"EVIDENCE Screenshots" doc:** https://drive.google.com/file/d/1r4S_eKkI255fGkhfD0a6nXQV46CcLpWi/view?usp=sharing
